@@ -24,8 +24,10 @@ public class App {
             });
             skype.subscribe();
 
-            GroupChat chat = skype.joinChat("19:d1edd3748dca4942b2d399b11a142928@thread.skype");
-            chat.sendMessage("сорри, это тест.");
+            //GroupChat chat = skype.joinChat("19:d1edd3748dca4942b2d399b11a142928@thread.skype");
+            GroupChat chat = skype.joinChat("19:2940e6b54d38476fb7577e67e965b9fe@thread.skype");
+            
+            chat.sendMessage("Обновление проекта: " + args[0] + " ветка: " + args[1]);
 
             //грабь корованы
 
@@ -35,3 +37,4 @@ public class App {
         }
     }
 }
+
