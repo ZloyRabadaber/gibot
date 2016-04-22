@@ -64,7 +64,6 @@ fabric.properties
 *.iml
 out
 gen### Maven template
-target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup

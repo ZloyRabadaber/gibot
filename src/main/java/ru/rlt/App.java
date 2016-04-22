@@ -10,7 +10,7 @@ import com.samczsun.skype4j.events.chat.message.MessageReceivedEvent;
 public class App {
     public static void main(String[] args) {
         String user = "git.rlt.ru";
-        String password = "";
+        String password = "Htfknfqv";
 
         SkypeBuilder skypeBuilder = new SkypeBuilder(user, password).withAllResources();
         Skype skype = skypeBuilder.build();
@@ -34,6 +34,7 @@ public class App {
             skype.logout();
         } catch (Exception e) {
             System.out.println(e);
+            System.exit(0);
         }
     }
 }
